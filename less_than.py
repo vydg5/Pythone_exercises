@@ -10,6 +10,3 @@ c = int(input("Enter a number:"))
 b = []
 [b.append(a[i]) if a[i] < c else 0 for i in range(0,len(a))]    
 print("The following number(s): " + str(b) + " are from list a and are smaller than " + str(c))
-
-    
-    
